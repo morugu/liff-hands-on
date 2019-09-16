@@ -1,0 +1,19 @@
+{
+	"name": "liff-hands-on",
+	"version": "0.0.1",
+	"description": "",
+	"main": "app.js",
+	"scripts": {
+		"start": "nodemon app.js"
+	},
+	"author": "Shoya Shiraki (https://github.com/morugu/)",
+	"license": "MIT",
+	"dependencies": {
+		"express": "^4.17.1",
+		"lowdb": "^1.0.0",
+		"qrcode": "^1.4.1"
+	},
+	"devDependencies": {
+		"nodemon": "^1.19.4"
+	}
+}
