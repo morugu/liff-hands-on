@@ -59,6 +59,7 @@ $(document).ready(function() {
 			console.log(`liff.init 失敗 ${err}`);
 		}
 	);
+	// step4 でQR コード読み取り機能を入れる場所
 });
 ```
 
@@ -105,9 +106,10 @@ $(document).ready(function() {
 1. http://localhost:5000 にアクセスして確認しましょう。  
    ※`ポイントカード`とだけ表示されていれば OK です。
 
-2. メモしておいた LIFF URL(line://app/xxxxxxxxxx-xxxxxxxx) を LINE アプリに送信してください。
+2. メモしておいた LIFF URL(line://app/xxxxxxxxxx-xxxxxxxx) を LINE アプリのトーク画面に送信してください。  
+   ※PC の LINE アプリから送ってスマホで開く、メールを送ってスマホでコピーして LINE アプリに送信するなどの方法があります。
 
-3. LINE アプリから LIFF URL にアクセスしてみましょう。以下の画面が表示されたら LIFF 開発設定の完了です！  
+3) LINE アプリから LIFF URL にアクセスしてみましょう。以下の画面が表示されたら LIFF 開発設定の完了です！  
    ※`ポイントカード`に加えて、`自分の名前`と`保有ポイント`が表示されていれば OK です。
 
 [戻る](step1.md) | [次へ](step3.md)

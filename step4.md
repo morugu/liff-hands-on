@@ -23,14 +23,12 @@ app.get('/qr/view/:qrId', (req, res) => {
 });
 ```
 
-3. `db.json` に以下のコードを追記してください。
+3. `db.json` の `qr: {}` の配下に `"1": 100` を追記してください。
 
 ```json
 {
 	"qr": {
-		// ここから
 		"1": 100
-		// ここまで
 	}
 }
 ```
@@ -67,7 +65,7 @@ app.post('/qr/use/:qrId', (req, res) => {
 <button id="qr-button">QRコード読み取り</button>
 ```
 
-2. `card.js` に以下のコードを追記してください。
+2. `card.js` の `// step4 でQR コード読み取り機能を入れる場所` と記述してある箇所の下に以下のコードを追記してください。
 
 ```javascript
 $('#qr-button').click(function() {
@@ -87,7 +85,7 @@ $('#qr-button').click(function() {
 
 1. http://localhost:5000/qr/view/1 を PC で開いてください。
 
-2. LIFF 内の LIFF を開き直してください。
+2. LINE アプリで LIFF を開き直してください。
 
 3. PC に表示された QR コードを、LINE 内で開いた LIFF の[QR コード読み取り]ボタンから開いて読み取ってください。
 
@@ -95,14 +93,13 @@ $('#qr-button').click(function() {
 
 ## QR コードの種類を増やす
 
-1. `db.json` に以下のコードを追記してください。
+1. `db.json` の `qr: {}` の配下に `"2": 200` を追記してください。
 
 ```json
 {
 	"qr": {
-		// ここから
+		"1": 100,
 		"2": 200
-		// ここまで
 	}
 }
 ```
@@ -111,6 +108,6 @@ $('#qr-button').click(function() {
 
 3. PC に表示された QR コードを、LINE 内で開いた LIFF の[QR コード読み取り]ボタンから開いて読み取ってください。
 
-4. 200 ポインが付与されれば OK です。
+4. 200 ポイントが付与されれば OK です。
 
 [戻る](step3.md) | [次へ](step5.md)
