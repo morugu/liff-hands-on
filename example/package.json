@@ -10,12 +10,12 @@
 	"license": "MIT",
 	"dependencies": {
 		"express": "^4.17.1",
-		"lowdb": "^1.0.0",
-		"qrcode": "^1.4.1",
 		"kind-of": ">=6.0.3",
-		"minimist": ">=1.2.6"
+		"lowdb": "^1.0.0",
+		"minimist": ">=1.2.6",
+		"qrcode": "^1.4.1"
 	},
 	"devDependencies": {
-		"nodemon": "^1.19.4"
+		"nodemon": "^2.0.16"
 	}
 }
