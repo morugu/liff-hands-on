@@ -9,7 +9,7 @@
 	"author": "Shoya Shiraki (https://github.com/morugu/)",
 	"license": "MIT",
 	"dependencies": {
-		"express": "^4.17.1",
+		"express": "^4.17.3",
 		"kind-of": ">=6.0.3",
 		"lowdb": "^1.0.0",
 		"minimist": ">=1.2.6",
